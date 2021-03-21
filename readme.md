@@ -1,15 +1,16 @@
 <h1>MemeMan.Me</h1>
 <p>Simple, put your face or any face on mememan :)</p>
+<p>Link to website: </p>
+<p>Link to API to be use in your porjects: </p>
 
-<br>
 <h1>API Documentation</h1>
 
-<p>Send all request to /API/upload Note: The API does have CORS turn on</p>
-<p><b>Important</b>: Send base64 string as a normal string (don't remove data:image/[image-type];base64) It takes a couple of seconds for the image to be process by the server and be sent back to the client</p>
+<p>Send all request to /API/upload <b>Note</b>: The API does have CORS turn on</p>
+<p><b>Important</b>: Send base64 string as a normal string (don't remove data:image/[image-type];base64). It takes a couple of seconds for the image to be process by the server and be sent back to the client</p>
 
-<h2>Example of getting and requesting data</h2>
+<h2>Examples of Getting and Requesting Data</h2>
 <br>
-<span><b>Example of client request:</b></span>
+    <span><b>Example of client request:</b></span>
     <pre>
         <code>
             //Send request as json 
