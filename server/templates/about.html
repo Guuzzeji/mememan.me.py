@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel='icon' type='image/jpg' href='/emote-icon.jpg'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
+    <title>Info</title>
+</head>
+
+<body>
+    <a href="/">Back</a>
+    <h2>API Documentation</h2>
+    <p>Send all request to <code>/API/upload</code>
+        <b>Note:</b> The API does have CORS turn on
+    </p>
+    <span><b>Important:</b> Send base64 string as a normal string (don't remove
+        <code>data:image/[image-type];base64</code>) It takes a
+        couple of seconds for the image to be process by the server and be sent back to the client</span><br><br>
+
+    <span><b>Example of client request:</b></span>
+    <pre>
+        <code>
+            //Send request as json 
+            {   
+                data: [base64-string-image]
+            } 
+        </code>
+    </pre>
+
+    <span><b>Example of result after sending request:</b></span>
+    <pre>
+        <code>
+            ///This is also a json object
+            {   
+                img: [base64-string-image] 
+            } 
+        </code>
+    </pre>
+
+    <span><b>Example of result if an ERROR has happen:</b></span>
+    <pre>
+        <code>
+            //This is also a json object
+            {  
+                img: "fail"
+            } 
+        </code>
+    </pre>
+
+    <h2>Reason for Creation</h2>
+    <span>idk, it funny</span>
+
+    <h2>Contact Info</h2>
+    <span>Reddit: <a href="https://www.reddit.com/user/Guuzzeji">/u/Guuzzeji</a></span><br>
+    <span>Discord: @Guuzzeji#2245</span><br>
+    <span>Github: <a href="https://github.com/Guuzzeji">@Guuzzeji</a></span>
+
+    <h2>Tips (Thank You!)</h2>
+    <span>BTC: </span>
+    <br>
+    <span>XMR: </span>
+
+    <br><br><br><br>
+</body>
+
+</html>
