@@ -1,7 +1,7 @@
 <h1>MemeMan.Me</h1>
 <p>Simple, put your face or any face on mememan :)</p>
-<p>Link to website: </p>
-<p>Link to API to be use in your porjects: </p>
+<p>Link to website: [Not live yet]</p>
+<p>Link to API to be use in your porjects: [Not live yet]</p>
 
 <h1>API Documentation</h1>
 
