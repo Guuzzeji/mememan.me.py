@@ -1,6 +1,8 @@
 <h1>MemeMan.Me</h1>
 <p>Simple, put your face or any face on mememan :)</p>
 
+<p>Note: You have to run this on your own server</p>
+
 <h1>API Documentation</h1>
 
 <p>Send all request to /API/upload <b>Note</b>: The API does have CORS turn on</p>
